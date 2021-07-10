@@ -10,5 +10,15 @@
     <h1>Esta es la pagina de Contacto</h1>    
     <h2>Modificacion de contacto</h2>
     <h3>Testeo</h3>
+    <script type="text/javascript">
+        function imagen(){
+        imagen = '<img src="/img/loader.gif" alt="cargando..."/>'
+            document.getElementById('imagencargando').innerHTML = imagen;
+        }
+        </script>
+        <p>
+        <input type='button' onclick='imagen()' value='Enviar'/>
+        <div id='imagencargando'></div>
+        </p>
 </body>
 </html>
